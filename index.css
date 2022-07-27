@@ -1,0 +1,58 @@
+body {
+    height: 10000px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 3px solid grey;
+
+    /* Quise poner este gradient acá para que haga un "sombreado" abajo del navbar, pero como el logo no es png y no iba a pagar, no lo pude poner */
+    /* background: rgb(240, 240, 240);
+    background: linear-gradient(0deg, rgba(240, 240, 240, 1) 0%, rgba(245, 245, 245, 1) 5%, rgba(255, 255, 255, 1) 40%); */
+}
+
+.container {
+    display: flex;
+    flex-direction: horizontal;
+    width: 50%;
+    /* flex-grow: 0.5; */
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+}
+
+.links {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 25%;
+    padding: 10px 20px;
+    border: 2px green solid;
+    border-radius: 1000px;
+
+    font-size: 23px;
+    color: green;
+    font-family: 'Rubik', sans-serif;
+    /* height: 100%; */
+}
