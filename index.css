@@ -17,7 +17,7 @@ a {
     position: fixed;
     top: 0px;
     left: 0px;
-    border-bottom: 3px solid grey;
+    border-bottom: 2px solid grey;
 
     /* Quise poner este gradient acá para que haga un "sombreado" abajo del navbar, pero como el logo no es png y no iba a pagar, no lo pude poner */
     /* background: rgb(240, 240, 240);
